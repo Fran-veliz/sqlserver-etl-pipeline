@@ -1,5 +1,10 @@
+
+-- Aclaración: el commit anterior incluye la creación de STG_TERRITORIO y STG_VENDEDOR
+
 USE AventureWorks_DWH;
 GO 
+
+
 
 IF OBJECT_ID('STG.Territory','U') IS NULL
 BEGIN
